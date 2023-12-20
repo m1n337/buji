@@ -25,13 +25,16 @@ export default function Home() {
                     objectFit='contain'
                   />
                 </div>
-                <h3 className={`mb-2 justify-center text-1xl font-semibold`}>功德 +1</h3>
+                <h3 
+                  className={`mb-4 text-1xl font-semibold`}
+                  style={{ whiteSpace: 'nowrap' }}
+                >功德 +1</h3>
               </div>
             }
 
             <div 
               className={`${bujiClick ? 'rotating' : ''}`}
-              style={{width: '25%', marginLeft: '140px', position: 'relative', top: '15px'}}
+              style={{width: '25%', marginLeft: '7.5rem', position: 'relative', top: '1.5rem'}}
             >
               <Image
                 src="/images/muyu-2.png"
@@ -44,7 +47,7 @@ export default function Home() {
             </div>
           </div>
           <div
-            style={{width: '10%'}}
+            style={{width: '5rem'}}
           >
             <Image
               src="/images/muyu-1.png"
